@@ -3,6 +3,113 @@
 
 @custom-variant dark (&:is(.dark *));
 
+/* ============================================================
+   EIRA brand webfonts
+   Served from the consumer's /public/fonts/ after registry install
+   ============================================================ */
+@font-face {
+  font-family: "Almarena Neue";
+  src: url("/fonts/AlmarenaNeue-Bold.otf") format("opentype");
+  font-weight: 700; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Almarena Neue";
+  src: url("/fonts/AlmarenaNeue-BoldItalic.otf") format("opentype");
+  font-weight: 700; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "Almarena Neue";
+  src: url("/fonts/AlmarenaNeue-Black.otf") format("opentype");
+  font-weight: 900; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Almarena Neue";
+  src: url("/fonts/AlmarenaNeue-BlackItalic.otf") format("opentype");
+  font-weight: 900; font-style: italic; font-display: swap;
+}
+
+@font-face {
+  font-family: "Almarena Neue Display";
+  src: url("/fonts/AlmarenaNeueDisplay-ExtraLight.otf") format("opentype");
+  font-weight: 200; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Almarena Neue Display";
+  src: url("/fonts/AlmarenaNeueDisplay-ExtraLightItalic.otf") format("opentype");
+  font-weight: 200; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "Almarena Neue Display";
+  src: url("/fonts/AlmarenaNeueDisplay-Light.otf") format("opentype");
+  font-weight: 300; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Almarena Neue Display";
+  src: url("/fonts/AlmarenaNeueDisplay-LightItalic.otf") format("opentype");
+  font-weight: 300; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "Almarena Neue Display";
+  src: url("/fonts/AlmarenaNeueDisplay-Regular.otf") format("opentype");
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Almarena Neue Display";
+  src: url("/fonts/AlmarenaNeueDisplay-RegularItalic.otf") format("opentype");
+  font-weight: 400; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "Almarena Neue Display";
+  src: url("/fonts/AlmarenaNeueDisplay-Medium.otf") format("opentype");
+  font-weight: 500; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Almarena Neue Display";
+  src: url("/fonts/AlmarenaNeueDisplay-MediumItalic.otf") format("opentype");
+  font-weight: 500; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "Almarena Neue Display";
+  src: url("/fonts/AlmarenaNeueDisplay-SemiBold.otf") format("opentype");
+  font-weight: 600; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Almarena Neue Display";
+  src: url("/fonts/AlmarenaNeueDisplay-Bold.otf") format("opentype");
+  font-weight: 700; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Almarena Neue Display";
+  src: url("/fonts/AlmarenaNeueDisplay-BoldItalic.otf") format("opentype");
+  font-weight: 700; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "Almarena Neue Display";
+  src: url("/fonts/AlmarenaNeueDisplay-ExtraBold.otf") format("opentype");
+  font-weight: 800; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Almarena Neue Display";
+  src: url("/fonts/AlmarenaNeueDisplay-ExtraBoldItalic.otf") format("opentype");
+  font-weight: 800; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "Almarena Neue Display";
+  src: url("/fonts/AlmarenaNeueDisplay-Black.otf") format("opentype");
+  font-weight: 900; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Almarena Neue Display";
+  src: url("/fonts/AlmarenaNeueDisplay-BlackItalic.otf") format("opentype");
+  font-weight: 900; font-style: italic; font-display: swap;
+}
+
+@font-face {
+  font-family: "Poynter Oldstyle Display";
+  src: url("/fonts/PoynterOldstyleDisplay-CondRoman.ttf") format("truetype");
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+
 :root {
   /* ===== EIRA BRAND PALETTE ===== */
   --eira-forest: #173425;

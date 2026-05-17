@@ -113,6 +113,106 @@
           "path": "registry/common/use-mobile.ts",
           "type": "registry:hook",
           "target": "src/hooks/use-mobile.ts"
+        },
+        {
+          "path": "public/fonts/AlmarenaNeue-Black.otf",
+          "type": "registry:file",
+          "target": "public/fonts/AlmarenaNeue-Black.otf"
+        },
+        {
+          "path": "public/fonts/AlmarenaNeue-BlackItalic.otf",
+          "type": "registry:file",
+          "target": "public/fonts/AlmarenaNeue-BlackItalic.otf"
+        },
+        {
+          "path": "public/fonts/AlmarenaNeue-Bold.otf",
+          "type": "registry:file",
+          "target": "public/fonts/AlmarenaNeue-Bold.otf"
+        },
+        {
+          "path": "public/fonts/AlmarenaNeue-BoldItalic.otf",
+          "type": "registry:file",
+          "target": "public/fonts/AlmarenaNeue-BoldItalic.otf"
+        },
+        {
+          "path": "public/fonts/AlmarenaNeueDisplay-Black.otf",
+          "type": "registry:file",
+          "target": "public/fonts/AlmarenaNeueDisplay-Black.otf"
+        },
+        {
+          "path": "public/fonts/AlmarenaNeueDisplay-BlackItalic.otf",
+          "type": "registry:file",
+          "target": "public/fonts/AlmarenaNeueDisplay-BlackItalic.otf"
+        },
+        {
+          "path": "public/fonts/AlmarenaNeueDisplay-Bold.otf",
+          "type": "registry:file",
+          "target": "public/fonts/AlmarenaNeueDisplay-Bold.otf"
+        },
+        {
+          "path": "public/fonts/AlmarenaNeueDisplay-BoldItalic.otf",
+          "type": "registry:file",
+          "target": "public/fonts/AlmarenaNeueDisplay-BoldItalic.otf"
+        },
+        {
+          "path": "public/fonts/AlmarenaNeueDisplay-ExtraBold.otf",
+          "type": "registry:file",
+          "target": "public/fonts/AlmarenaNeueDisplay-ExtraBold.otf"
+        },
+        {
+          "path": "public/fonts/AlmarenaNeueDisplay-ExtraBoldItalic.otf",
+          "type": "registry:file",
+          "target": "public/fonts/AlmarenaNeueDisplay-ExtraBoldItalic.otf"
+        },
+        {
+          "path": "public/fonts/AlmarenaNeueDisplay-ExtraLight.otf",
+          "type": "registry:file",
+          "target": "public/fonts/AlmarenaNeueDisplay-ExtraLight.otf"
+        },
+        {
+          "path": "public/fonts/AlmarenaNeueDisplay-ExtraLightItalic.otf",
+          "type": "registry:file",
+          "target": "public/fonts/AlmarenaNeueDisplay-ExtraLightItalic.otf"
+        },
+        {
+          "path": "public/fonts/AlmarenaNeueDisplay-Light.otf",
+          "type": "registry:file",
+          "target": "public/fonts/AlmarenaNeueDisplay-Light.otf"
+        },
+        {
+          "path": "public/fonts/AlmarenaNeueDisplay-LightItalic.otf",
+          "type": "registry:file",
+          "target": "public/fonts/AlmarenaNeueDisplay-LightItalic.otf"
+        },
+        {
+          "path": "public/fonts/AlmarenaNeueDisplay-Medium.otf",
+          "type": "registry:file",
+          "target": "public/fonts/AlmarenaNeueDisplay-Medium.otf"
+        },
+        {
+          "path": "public/fonts/AlmarenaNeueDisplay-MediumItalic.otf",
+          "type": "registry:file",
+          "target": "public/fonts/AlmarenaNeueDisplay-MediumItalic.otf"
+        },
+        {
+          "path": "public/fonts/AlmarenaNeueDisplay-Regular.otf",
+          "type": "registry:file",
+          "target": "public/fonts/AlmarenaNeueDisplay-Regular.otf"
+        },
+        {
+          "path": "public/fonts/AlmarenaNeueDisplay-RegularItalic.otf",
+          "type": "registry:file",
+          "target": "public/fonts/AlmarenaNeueDisplay-RegularItalic.otf"
+        },
+        {
+          "path": "public/fonts/AlmarenaNeueDisplay-SemiBold.otf",
+          "type": "registry:file",
+          "target": "public/fonts/AlmarenaNeueDisplay-SemiBold.otf"
+        },
+        {
+          "path": "public/fonts/PoynterOldstyleDisplay-CondRoman.ttf",
+          "type": "registry:file",
+          "target": "public/fonts/PoynterOldstyleDisplay-CondRoman.ttf"
         }
       ]
     },
