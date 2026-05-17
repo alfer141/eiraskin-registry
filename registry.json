@@ -1,13 +1,13 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry.json",
-  "name": "Registry Starter",
-  "homepage": "https://registry-starter.vercel.app",
+  "name": "EIRA Skin Design System",
+  "homepage": "https://design.eiraskin.mx",
   "items": [
     {
       "name": "theme",
       "type": "registry:theme",
-      "title": "Nature Theme",
-      "description": "A nature theme and styles with greens and browns using Tailwind and shadcn/ui variable names",
+      "title": "EIRA Skin Theme",
+      "description": "EIRA Skin design tokens — forest, sage, lime palette with Almarena and Poynter typography.",
       "cssVars": {
         "light": {
           "background": "oklch(0.97 0.01 80.72)",
@@ -1116,6 +1116,249 @@
         "https://registry-starter.vercel.app/r/popover.json"
       ],
       "files": []
+    },
+    {
+      "name": "eira-icons",
+      "type": "registry:component",
+      "title": "EIRA Icons",
+      "description": "EIRA monoline icon set with sparkle glyph — 1.5px stroke, rounded caps.",
+      "files": [
+        {
+          "path": "src/components/eira/icons.tsx",
+          "type": "registry:component",
+          "target": "components/eira/icons.tsx"
+        }
+      ]
+    },
+    {
+      "name": "eira-button",
+      "type": "registry:component",
+      "title": "EIRA Button",
+      "description": "EIRA branded button with primary, lime, ghost, text and onDark variants.",
+      "files": [
+        {
+          "path": "src/components/eira/button.tsx",
+          "type": "registry:component",
+          "target": "components/eira/button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "eira-pill",
+      "type": "registry:component",
+      "title": "EIRA Pill",
+      "description": "EIRA branded pill/badge for status and category tags.",
+      "files": [
+        {
+          "path": "src/components/eira/pill.tsx",
+          "type": "registry:component",
+          "target": "components/eira/pill.tsx"
+        }
+      ]
+    },
+    {
+      "name": "eira-card",
+      "type": "registry:component",
+      "title": "EIRA Card",
+      "description": "EIRA card surface — cream by default, forest when dark.",
+      "files": [
+        {
+          "path": "src/components/eira/card.tsx",
+          "type": "registry:component",
+          "target": "components/eira/card.tsx"
+        }
+      ]
+    },
+    {
+      "name": "eira-field",
+      "type": "registry:component",
+      "title": "EIRA Field",
+      "description": "EIRA form field wrapper with label, hint, and error states.",
+      "files": [
+        {
+          "path": "src/components/eira/field.tsx",
+          "type": "registry:component",
+          "target": "components/eira/field.tsx"
+        }
+      ]
+    },
+    {
+      "name": "eira-input",
+      "type": "registry:component",
+      "title": "EIRA Input",
+      "description": "EIRA text input — cream-on-forest accent borders.",
+      "files": [
+        {
+          "path": "src/components/eira/input.tsx",
+          "type": "registry:component",
+          "target": "components/eira/input.tsx"
+        }
+      ]
+    },
+    {
+      "name": "eira-avatar",
+      "type": "registry:component",
+      "title": "EIRA Avatar",
+      "description": "Circular avatar — photo crop or forest initials fallback.",
+      "files": [
+        {
+          "path": "src/components/eira/avatar.tsx",
+          "type": "registry:component",
+          "target": "components/eira/avatar.tsx"
+        }
+      ]
+    },
+    {
+      "name": "eira-bottom-tabs",
+      "type": "registry:component",
+      "title": "EIRA Bottom Tabs",
+      "description": "Mobile in-app bottom tab bar with EIRA tab destinations.",
+      "registryDependencies": ["eira-icons"],
+      "files": [
+        {
+          "path": "src/components/eira/bottom-tabs.tsx",
+          "type": "registry:component",
+          "target": "components/eira/bottom-tabs.tsx"
+        }
+      ]
+    },
+    {
+      "name": "eira-phone",
+      "type": "registry:component",
+      "title": "EIRA Phone Frame",
+      "description": "iPhone-shaped artboard for previewing EIRA mobile screens.",
+      "files": [
+        {
+          "path": "src/components/eira/phone.tsx",
+          "type": "registry:component",
+          "target": "components/eira/phone.tsx"
+        }
+      ]
+    },
+    {
+      "name": "eira-screen-topbar",
+      "type": "registry:component",
+      "title": "EIRA Screen Topbar",
+      "description": "Mobile screen topbar with back, title, and action slot.",
+      "registryDependencies": ["eira-icons"],
+      "files": [
+        {
+          "path": "src/components/eira/screen-topbar.tsx",
+          "type": "registry:component",
+          "target": "components/eira/screen-topbar.tsx"
+        }
+      ]
+    },
+    {
+      "name": "eira-home-screen",
+      "type": "registry:component",
+      "title": "EIRA Home Screen",
+      "description": "Patient home dashboard — greeting, active plan, next consult, weekly tasks.",
+      "registryDependencies": [
+        "eira-avatar",
+        "eira-button",
+        "eira-card",
+        "eira-icons",
+        "eira-pill"
+      ],
+      "files": [
+        {
+          "path": "src/components/eira/home-screen.tsx",
+          "type": "registry:component",
+          "target": "components/eira/home-screen.tsx"
+        }
+      ]
+    },
+    {
+      "name": "eira-booking-screen",
+      "type": "registry:component",
+      "title": "EIRA Booking Screen",
+      "description": "Booking flow — doctor card, time slot grid, confirmation CTA.",
+      "registryDependencies": [
+        "eira-avatar",
+        "eira-button",
+        "eira-card",
+        "eira-icons",
+        "eira-pill",
+        "eira-screen-topbar"
+      ],
+      "files": [
+        {
+          "path": "src/components/eira/booking-screen.tsx",
+          "type": "registry:component",
+          "target": "components/eira/booking-screen.tsx"
+        }
+      ]
+    },
+    {
+      "name": "eira-confirmed-screen",
+      "type": "registry:component",
+      "title": "EIRA Confirmed Screen",
+      "description": "Booking confirmation screen with pre-consult checklist.",
+      "registryDependencies": [
+        "eira-button",
+        "eira-icons",
+        "eira-screen-topbar"
+      ],
+      "files": [
+        {
+          "path": "src/components/eira/confirmed-screen.tsx",
+          "type": "registry:component",
+          "target": "components/eira/confirmed-screen.tsx"
+        }
+      ]
+    },
+    {
+      "name": "eira-plan-screen",
+      "type": "registry:component",
+      "title": "EIRA Plan Screen",
+      "description": "Obagi Nu-Derm treatment plan with product steps and next-shipment callout.",
+      "registryDependencies": [
+        "eira-card",
+        "eira-icons",
+        "eira-pill",
+        "eira-screen-topbar"
+      ],
+      "files": [
+        {
+          "path": "src/components/eira/plan-screen.tsx",
+          "type": "registry:component",
+          "target": "components/eira/plan-screen.tsx"
+        }
+      ]
+    },
+    {
+      "name": "eira-upload-screen",
+      "type": "registry:component",
+      "title": "EIRA Upload Screen",
+      "description": "Weekly follow-up photo capture flow with 3-slot thumbnail strip.",
+      "registryDependencies": [
+        "eira-button",
+        "eira-icons",
+        "eira-pill",
+        "eira-screen-topbar"
+      ],
+      "files": [
+        {
+          "path": "src/components/eira/upload-screen.tsx",
+          "type": "registry:component",
+          "target": "components/eira/upload-screen.tsx"
+        }
+      ]
+    },
+    {
+      "name": "eira-derma-screen",
+      "type": "registry:component",
+      "title": "EIRA Derma Chat Screen",
+      "description": "Patient-to-dermatologist chat thread with composer and photo attach.",
+      "registryDependencies": ["eira-avatar", "eira-icons"],
+      "files": [
+        {
+          "path": "src/components/eira/derma-screen.tsx",
+          "type": "registry:component",
+          "target": "components/eira/derma-screen.tsx"
+        }
+      ]
     }
   ]
 }
