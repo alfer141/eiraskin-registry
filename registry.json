@@ -1118,6 +1118,59 @@
       "files": []
     },
     {
+      "name": "eira-brand-assets",
+      "type": "registry:item",
+      "title": "EIRA Brand Assets",
+      "description": "EIRA Skin logos, favicons, brand photography, and sparkle glyph. Required by hero, nav, and any component that references /brand/* paths.",
+      "files": [
+        {
+          "path": "public/brand/logo-forest.svg",
+          "type": "registry:file",
+          "target": "public/brand/logo-forest.svg"
+        },
+        {
+          "path": "public/brand/logo-light.svg",
+          "type": "registry:file",
+          "target": "public/brand/logo-light.svg"
+        },
+        {
+          "path": "public/brand/logo-main.svg",
+          "type": "registry:file",
+          "target": "public/brand/logo-main.svg"
+        },
+        {
+          "path": "public/brand/logo-mark-green.svg",
+          "type": "registry:file",
+          "target": "public/brand/logo-mark-green.svg"
+        },
+        {
+          "path": "public/brand/logo-accent.svg",
+          "type": "registry:file",
+          "target": "public/brand/logo-accent.svg"
+        },
+        {
+          "path": "public/brand/favicon-forest.svg",
+          "type": "registry:file",
+          "target": "public/brand/favicon-forest.svg"
+        },
+        {
+          "path": "public/brand/favicon-cream.svg",
+          "type": "registry:file",
+          "target": "public/brand/favicon-cream.svg"
+        },
+        {
+          "path": "public/brand/sparkle.svg",
+          "type": "registry:file",
+          "target": "public/brand/sparkle.svg"
+        },
+        {
+          "path": "public/brand/hero-close-hq.png",
+          "type": "registry:file",
+          "target": "public/brand/hero-close-hq.png"
+        }
+      ]
+    },
+    {
       "name": "eira-icons",
       "type": "registry:component",
       "title": "EIRA Icons",
@@ -1265,6 +1318,7 @@
       "registryDependencies": [
         "theme",
         "eira-avatar",
+        "eira-brand-assets",
         "eira-button",
         "eira-card",
         "eira-icons",
@@ -1286,6 +1340,7 @@
       "registryDependencies": [
         "theme",
         "eira-avatar",
+        "eira-brand-assets",
         "eira-button",
         "eira-card",
         "eira-icons",
@@ -1346,6 +1401,7 @@
       "description": "Weekly follow-up photo capture flow with 3-slot thumbnail strip.",
       "registryDependencies": [
         "theme",
+        "eira-brand-assets",
         "eira-button",
         "eira-icons",
         "eira-pill",
@@ -1364,7 +1420,7 @@
       "type": "registry:component",
       "title": "EIRA Marketing Nav",
       "description": "Top marketing nav — logo, links, and lime apply CTA. Tones for cream-on-forest or forest-on-cream backgrounds.",
-      "registryDependencies": ["theme"],
+      "registryDependencies": ["theme", "eira-brand-assets"],
       "files": [
         {
           "path": "src/components/eira/marketing-nav.tsx",
@@ -1394,6 +1450,7 @@
       "description": "Forest dark left pane with eyebrow, italic-lime accented headline, lead and CTAs; right pane is full-bleed photography with a floating status pill and a glass benefits overlay card.",
       "registryDependencies": [
         "theme",
+        "eira-brand-assets",
         "eira-button",
         "eira-marketing-nav",
         "eira-overlay-card"
@@ -1425,7 +1482,7 @@
       "type": "registry:component",
       "title": "EIRA Marketing Hero — Centered + Video",
       "description": "Centered hero on forest with eyebrow, accented headline, two CTAs and a poster-image video block with lime play button.",
-      "registryDependencies": ["theme", "eira-button", "eira-marketing-nav"],
+      "registryDependencies": ["theme", "eira-brand-assets", "eira-button", "eira-marketing-nav"],
       "files": [
         {
           "path": "src/components/eira/marketing-hero-centered.tsx",
@@ -1453,7 +1510,7 @@
       "type": "registry:component",
       "title": "EIRA Derma Chat Screen",
       "description": "Patient-to-dermatologist chat thread with composer and photo attach.",
-      "registryDependencies": ["theme", "eira-avatar", "eira-icons"],
+      "registryDependencies": ["theme", "eira-avatar", "eira-brand-assets", "eira-icons"],
       "files": [
         {
           "path": "src/components/eira/derma-screen.tsx",
