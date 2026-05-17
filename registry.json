@@ -1347,6 +1347,92 @@
       ]
     },
     {
+      "name": "eira-marketing-nav",
+      "type": "registry:component",
+      "title": "EIRA Marketing Nav",
+      "description": "Top marketing nav — logo, links, and lime apply CTA. Tones for cream-on-forest or forest-on-cream backgrounds.",
+      "files": [
+        {
+          "path": "src/components/eira/marketing-nav.tsx",
+          "type": "registry:component",
+          "target": "components/eira/marketing-nav.tsx"
+        }
+      ]
+    },
+    {
+      "name": "eira-overlay-card",
+      "type": "registry:component",
+      "title": "EIRA Overlay Card",
+      "description": "Backdrop-blurred glass card (forest or cream tint) plus a 3-column benefits row variant — designed to sit on hero photography.",
+      "files": [
+        {
+          "path": "src/components/eira/overlay-card.tsx",
+          "type": "registry:component",
+          "target": "components/eira/overlay-card.tsx"
+        }
+      ]
+    },
+    {
+      "name": "eira-marketing-hero-image",
+      "type": "registry:component",
+      "title": "EIRA Marketing Hero — Image Right",
+      "description": "Forest dark left pane with eyebrow, italic-lime accented headline, lead and CTAs; right pane is full-bleed photography with a floating status pill and a glass benefits overlay card.",
+      "registryDependencies": [
+        "eira-button",
+        "eira-marketing-nav",
+        "eira-overlay-card"
+      ],
+      "files": [
+        {
+          "path": "src/components/eira/marketing-hero-image.tsx",
+          "type": "registry:component",
+          "target": "components/eira/marketing-hero-image.tsx"
+        }
+      ]
+    },
+    {
+      "name": "eira-marketing-hero-abstract",
+      "type": "registry:component",
+      "title": "EIRA Marketing Hero — Abstract",
+      "description": "Forest-flat hero with no photography — text left, animated SVG sage/lime sparkle burst right. Use when imagery isn't available.",
+      "registryDependencies": ["eira-marketing-nav"],
+      "files": [
+        {
+          "path": "src/components/eira/marketing-hero-abstract.tsx",
+          "type": "registry:component",
+          "target": "components/eira/marketing-hero-abstract.tsx"
+        }
+      ]
+    },
+    {
+      "name": "eira-marketing-hero-centered",
+      "type": "registry:component",
+      "title": "EIRA Marketing Hero — Centered + Video",
+      "description": "Centered hero on forest with eyebrow, accented headline, two CTAs and a poster-image video block with lime play button.",
+      "registryDependencies": ["eira-button", "eira-marketing-nav"],
+      "files": [
+        {
+          "path": "src/components/eira/marketing-hero-centered.tsx",
+          "type": "registry:component",
+          "target": "components/eira/marketing-hero-centered.tsx"
+        }
+      ]
+    },
+    {
+      "name": "eira-marketing-hero-banner",
+      "type": "registry:component",
+      "title": "EIRA Marketing Hero — Promo Banner",
+      "description": "Lime promo strip + forest backdrop hero with a glass copy container on the left, hairline-divided benefits on the bottom right, and a floating chat affordance.",
+      "registryDependencies": ["eira-marketing-nav", "eira-overlay-card"],
+      "files": [
+        {
+          "path": "src/components/eira/marketing-hero-banner.tsx",
+          "type": "registry:component",
+          "target": "components/eira/marketing-hero-banner.tsx"
+        }
+      ]
+    },
+    {
       "name": "eira-derma-screen",
       "type": "registry:component",
       "title": "EIRA Derma Chat Screen",
