@@ -1122,6 +1122,7 @@
       "type": "registry:component",
       "title": "EIRA Icons",
       "description": "EIRA monoline icon set with sparkle glyph — 1.5px stroke, rounded caps.",
+      "registryDependencies": ["theme"],
       "files": [
         {
           "path": "src/components/eira/icons.tsx",
@@ -1135,6 +1136,7 @@
       "type": "registry:component",
       "title": "EIRA Button",
       "description": "EIRA branded button with primary, lime, ghost, text and onDark variants.",
+      "registryDependencies": ["theme"],
       "files": [
         {
           "path": "src/components/eira/button.tsx",
@@ -1148,6 +1150,7 @@
       "type": "registry:component",
       "title": "EIRA Pill",
       "description": "EIRA branded pill/badge for status and category tags.",
+      "registryDependencies": ["theme"],
       "files": [
         {
           "path": "src/components/eira/pill.tsx",
@@ -1161,6 +1164,7 @@
       "type": "registry:component",
       "title": "EIRA Card",
       "description": "EIRA card surface — cream by default, forest when dark.",
+      "registryDependencies": ["theme"],
       "files": [
         {
           "path": "src/components/eira/card.tsx",
@@ -1174,6 +1178,7 @@
       "type": "registry:component",
       "title": "EIRA Field",
       "description": "EIRA form field wrapper with label, hint, and error states.",
+      "registryDependencies": ["theme"],
       "files": [
         {
           "path": "src/components/eira/field.tsx",
@@ -1187,6 +1192,7 @@
       "type": "registry:component",
       "title": "EIRA Input",
       "description": "EIRA text input — cream-on-forest accent borders.",
+      "registryDependencies": ["theme"],
       "files": [
         {
           "path": "src/components/eira/input.tsx",
@@ -1200,6 +1206,7 @@
       "type": "registry:component",
       "title": "EIRA Avatar",
       "description": "Circular avatar — photo crop or forest initials fallback.",
+      "registryDependencies": ["theme"],
       "files": [
         {
           "path": "src/components/eira/avatar.tsx",
@@ -1213,7 +1220,7 @@
       "type": "registry:component",
       "title": "EIRA Bottom Tabs",
       "description": "Mobile in-app bottom tab bar with EIRA tab destinations.",
-      "registryDependencies": ["eira-icons"],
+      "registryDependencies": ["theme", "eira-icons"],
       "files": [
         {
           "path": "src/components/eira/bottom-tabs.tsx",
@@ -1227,6 +1234,7 @@
       "type": "registry:component",
       "title": "EIRA Phone Frame",
       "description": "iPhone-shaped artboard for previewing EIRA mobile screens.",
+      "registryDependencies": ["theme"],
       "files": [
         {
           "path": "src/components/eira/phone.tsx",
@@ -1240,7 +1248,7 @@
       "type": "registry:component",
       "title": "EIRA Screen Topbar",
       "description": "Mobile screen topbar with back, title, and action slot.",
-      "registryDependencies": ["eira-icons"],
+      "registryDependencies": ["theme", "eira-icons"],
       "files": [
         {
           "path": "src/components/eira/screen-topbar.tsx",
@@ -1255,6 +1263,7 @@
       "title": "EIRA Home Screen",
       "description": "Patient home dashboard — greeting, active plan, next consult, weekly tasks.",
       "registryDependencies": [
+        "theme",
         "eira-avatar",
         "eira-button",
         "eira-card",
@@ -1275,6 +1284,7 @@
       "title": "EIRA Booking Screen",
       "description": "Booking flow — doctor card, time slot grid, confirmation CTA.",
       "registryDependencies": [
+        "theme",
         "eira-avatar",
         "eira-button",
         "eira-card",
@@ -1296,6 +1306,7 @@
       "title": "EIRA Confirmed Screen",
       "description": "Booking confirmation screen with pre-consult checklist.",
       "registryDependencies": [
+        "theme",
         "eira-button",
         "eira-icons",
         "eira-screen-topbar"
@@ -1314,6 +1325,7 @@
       "title": "EIRA Plan Screen",
       "description": "Obagi Nu-Derm treatment plan with product steps and next-shipment callout.",
       "registryDependencies": [
+        "theme",
         "eira-card",
         "eira-icons",
         "eira-pill",
@@ -1333,6 +1345,7 @@
       "title": "EIRA Upload Screen",
       "description": "Weekly follow-up photo capture flow with 3-slot thumbnail strip.",
       "registryDependencies": [
+        "theme",
         "eira-button",
         "eira-icons",
         "eira-pill",
@@ -1351,6 +1364,7 @@
       "type": "registry:component",
       "title": "EIRA Marketing Nav",
       "description": "Top marketing nav — logo, links, and lime apply CTA. Tones for cream-on-forest or forest-on-cream backgrounds.",
+      "registryDependencies": ["theme"],
       "files": [
         {
           "path": "src/components/eira/marketing-nav.tsx",
@@ -1364,6 +1378,7 @@
       "type": "registry:component",
       "title": "EIRA Overlay Card",
       "description": "Backdrop-blurred glass card (forest or cream tint) plus a 3-column benefits row variant — designed to sit on hero photography.",
+      "registryDependencies": ["theme"],
       "files": [
         {
           "path": "src/components/eira/overlay-card.tsx",
@@ -1378,6 +1393,7 @@
       "title": "EIRA Marketing Hero — Image Right",
       "description": "Forest dark left pane with eyebrow, italic-lime accented headline, lead and CTAs; right pane is full-bleed photography with a floating status pill and a glass benefits overlay card.",
       "registryDependencies": [
+        "theme",
         "eira-button",
         "eira-marketing-nav",
         "eira-overlay-card"
@@ -1395,7 +1411,7 @@
       "type": "registry:component",
       "title": "EIRA Marketing Hero — Abstract",
       "description": "Forest-flat hero with no photography — text left, animated SVG sage/lime sparkle burst right. Use when imagery isn't available.",
-      "registryDependencies": ["eira-marketing-nav"],
+      "registryDependencies": ["theme", "eira-marketing-nav"],
       "files": [
         {
           "path": "src/components/eira/marketing-hero-abstract.tsx",
@@ -1409,7 +1425,7 @@
       "type": "registry:component",
       "title": "EIRA Marketing Hero — Centered + Video",
       "description": "Centered hero on forest with eyebrow, accented headline, two CTAs and a poster-image video block with lime play button.",
-      "registryDependencies": ["eira-button", "eira-marketing-nav"],
+      "registryDependencies": ["theme", "eira-button", "eira-marketing-nav"],
       "files": [
         {
           "path": "src/components/eira/marketing-hero-centered.tsx",
@@ -1423,7 +1439,7 @@
       "type": "registry:component",
       "title": "EIRA Marketing Hero — Promo Banner",
       "description": "Lime promo strip + forest backdrop hero with a glass copy container on the left, hairline-divided benefits on the bottom right, and a floating chat affordance.",
-      "registryDependencies": ["eira-marketing-nav", "eira-overlay-card"],
+      "registryDependencies": ["theme", "eira-marketing-nav", "eira-overlay-card"],
       "files": [
         {
           "path": "src/components/eira/marketing-hero-banner.tsx",
@@ -1437,7 +1453,7 @@
       "type": "registry:component",
       "title": "EIRA Derma Chat Screen",
       "description": "Patient-to-dermatologist chat thread with composer and photo attach.",
-      "registryDependencies": ["eira-avatar", "eira-icons"],
+      "registryDependencies": ["theme", "eira-avatar", "eira-icons"],
       "files": [
         {
           "path": "src/components/eira/derma-screen.tsx",
