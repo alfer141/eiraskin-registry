@@ -80,7 +80,9 @@
           "radius": "0.5rem"
         }
       },
-      "dependencies": ["radix-ui"],
+      "dependencies": [
+        "radix-ui"
+      ],
       "files": [
         {
           "path": "registry/common/globals.css",
@@ -111,432 +113,6 @@
           "path": "registry/common/use-mobile.ts",
           "type": "registry:hook",
           "target": "src/hooks/use-mobile.ts"
-        }
-      ]
-    },
-    {
-      "name": "blank",
-      "type": "registry:block",
-      "title": "Blank",
-      "description": "A blank application with all brand components and code",
-      "registryDependencies": [
-        "https://registry-starter.vercel.app/r/theme.json",
-        "https://registry-starter.vercel.app/r/brand-header.json",
-        "https://registry-starter.vercel.app/r/brand-sidebar.json",
-        "https://registry-starter.vercel.app/r/login.json",
-        "https://registry-starter.vercel.app/r/logo.json",
-        "https://registry-starter.vercel.app/r/hero.json",
-        "https://registry-starter.vercel.app/r/promo.json",
-        "https://registry-starter.vercel.app/r/product-grid.json",
-        "https://registry-starter.vercel.app/r/accordion.json",
-        "https://registry-starter.vercel.app/r/alert.json",
-        "https://registry-starter.vercel.app/r/alert-dialog.json",
-        "https://registry-starter.vercel.app/r/aspect-ratio.json",
-        "https://registry-starter.vercel.app/r/avatar.json",
-        "https://registry-starter.vercel.app/r/badge.json",
-        "https://registry-starter.vercel.app/r/breadcrumb.json",
-        "https://registry-starter.vercel.app/r/button.json",
-        "https://registry-starter.vercel.app/r/calendar.json",
-        "https://registry-starter.vercel.app/r/card.json",
-        "https://registry-starter.vercel.app/r/carousel.json",
-        "https://registry-starter.vercel.app/r/chart.json",
-        "https://registry-starter.vercel.app/r/checkbox.json",
-        "https://registry-starter.vercel.app/r/collapsible.json",
-        "https://registry-starter.vercel.app/r/command.json",
-        "https://registry-starter.vercel.app/r/context-menu.json",
-        "https://registry-starter.vercel.app/r/dialog.json",
-        "https://registry-starter.vercel.app/r/drawer.json",
-        "https://registry-starter.vercel.app/r/dropdown-menu.json",
-        "https://registry-starter.vercel.app/r/form.json",
-        "https://registry-starter.vercel.app/r/hover-card.json",
-        "https://registry-starter.vercel.app/r/input.json",
-        "https://registry-starter.vercel.app/r/input-otp.json",
-        "https://registry-starter.vercel.app/r/label.json",
-        "https://registry-starter.vercel.app/r/menubar.json",
-        "https://registry-starter.vercel.app/r/navigation-menu.json",
-        "https://registry-starter.vercel.app/r/pagination.json",
-        "https://registry-starter.vercel.app/r/popover.json",
-        "https://registry-starter.vercel.app/r/progress.json",
-        "https://registry-starter.vercel.app/r/radio-group.json",
-        "https://registry-starter.vercel.app/r/resizable.json",
-        "https://registry-starter.vercel.app/r/scroll-area.json",
-        "https://registry-starter.vercel.app/r/select.json",
-        "https://registry-starter.vercel.app/r/separator.json",
-        "https://registry-starter.vercel.app/r/sheet.json",
-        "https://registry-starter.vercel.app/r/sidebar.json",
-        "https://registry-starter.vercel.app/r/skeleton.json",
-        "https://registry-starter.vercel.app/r/slider.json",
-        "https://registry-starter.vercel.app/r/sonner.json",
-        "https://registry-starter.vercel.app/r/switch.json",
-        "https://registry-starter.vercel.app/r/table.json",
-        "https://registry-starter.vercel.app/r/tabs.json",
-        "https://registry-starter.vercel.app/r/textarea.json",
-        "https://registry-starter.vercel.app/r/toggle.json",
-        "https://registry-starter.vercel.app/r/toggle-group.json",
-        "https://registry-starter.vercel.app/r/tooltip.json",
-        "https://registry-starter.vercel.app/r/data-table.json",
-        "https://registry-starter.vercel.app/r/date-picker.json"
-      ],
-      "files": [
-        {
-          "path": "registry/layouts/minimal-layout.tsx",
-          "type": "registry:file",
-          "target": "src/app/layout.tsx"
-        },
-        {
-          "path": "src/app/demo/[name]/blocks/blank-page.tsx",
-          "type": "registry:page",
-          "target": "src/app/page.tsx"
-        }
-      ]
-    },
-    {
-      "name": "dashboard",
-      "type": "registry:block",
-      "title": "Dashboard",
-      "description": "A dashboard application with your brand themed components",
-      "registryDependencies": [
-        "https://registry-starter.vercel.app/r/theme.json",
-        "https://registry-starter.vercel.app/r/brand-header.json",
-        "https://registry-starter.vercel.app/r/brand-sidebar.json",
-        "https://registry-starter.vercel.app/r/login.json",
-        "https://registry-starter.vercel.app/r/logo.json",
-        "https://registry-starter.vercel.app/r/hero.json",
-        "https://registry-starter.vercel.app/r/promo.json",
-        "https://registry-starter.vercel.app/r/product-grid.json",
-        "https://registry-starter.vercel.app/r/accordion.json",
-        "https://registry-starter.vercel.app/r/alert.json",
-        "https://registry-starter.vercel.app/r/alert-dialog.json",
-        "https://registry-starter.vercel.app/r/aspect-ratio.json",
-        "https://registry-starter.vercel.app/r/avatar.json",
-        "https://registry-starter.vercel.app/r/badge.json",
-        "https://registry-starter.vercel.app/r/breadcrumb.json",
-        "https://registry-starter.vercel.app/r/button.json",
-        "https://registry-starter.vercel.app/r/calendar.json",
-        "https://registry-starter.vercel.app/r/card.json",
-        "https://registry-starter.vercel.app/r/carousel.json",
-        "https://registry-starter.vercel.app/r/chart.json",
-        "https://registry-starter.vercel.app/r/checkbox.json",
-        "https://registry-starter.vercel.app/r/collapsible.json",
-        "https://registry-starter.vercel.app/r/command.json",
-        "https://registry-starter.vercel.app/r/context-menu.json",
-        "https://registry-starter.vercel.app/r/dialog.json",
-        "https://registry-starter.vercel.app/r/drawer.json",
-        "https://registry-starter.vercel.app/r/dropdown-menu.json",
-        "https://registry-starter.vercel.app/r/form.json",
-        "https://registry-starter.vercel.app/r/hover-card.json",
-        "https://registry-starter.vercel.app/r/input.json",
-        "https://registry-starter.vercel.app/r/input-otp.json",
-        "https://registry-starter.vercel.app/r/label.json",
-        "https://registry-starter.vercel.app/r/menubar.json",
-        "https://registry-starter.vercel.app/r/navigation-menu.json",
-        "https://registry-starter.vercel.app/r/pagination.json",
-        "https://registry-starter.vercel.app/r/popover.json",
-        "https://registry-starter.vercel.app/r/progress.json",
-        "https://registry-starter.vercel.app/r/radio-group.json",
-        "https://registry-starter.vercel.app/r/resizable.json",
-        "https://registry-starter.vercel.app/r/scroll-area.json",
-        "https://registry-starter.vercel.app/r/select.json",
-        "https://registry-starter.vercel.app/r/separator.json",
-        "https://registry-starter.vercel.app/r/sheet.json",
-        "https://registry-starter.vercel.app/r/sidebar.json",
-        "https://registry-starter.vercel.app/r/skeleton.json",
-        "https://registry-starter.vercel.app/r/slider.json",
-        "https://registry-starter.vercel.app/r/sonner.json",
-        "https://registry-starter.vercel.app/r/switch.json",
-        "https://registry-starter.vercel.app/r/table.json",
-        "https://registry-starter.vercel.app/r/tabs.json",
-        "https://registry-starter.vercel.app/r/textarea.json",
-        "https://registry-starter.vercel.app/r/toggle.json",
-        "https://registry-starter.vercel.app/r/toggle-group.json",
-        "https://registry-starter.vercel.app/r/tooltip.json",
-        "https://registry-starter.vercel.app/r/data-table.json",
-        "https://registry-starter.vercel.app/r/date-picker.json"
-      ],
-      "files": [
-        {
-          "path": "registry/layouts/shell-layout.tsx",
-          "type": "registry:file",
-          "target": "src/app/layout.tsx"
-        },
-        {
-          "path": "src/app/demo/[name]/blocks/dashboard-page.tsx",
-          "type": "registry:page",
-          "target": "src/app/page.tsx"
-        }
-      ]
-    },
-    {
-      "name": "store",
-      "type": "registry:block",
-      "title": "Store",
-      "description": "A store application with your brand themed components",
-      "registryDependencies": [
-        "https://registry-starter.vercel.app/r/theme.json",
-        "https://registry-starter.vercel.app/r/brand-header.json",
-        "https://registry-starter.vercel.app/r/brand-sidebar.json",
-        "https://registry-starter.vercel.app/r/login.json",
-        "https://registry-starter.vercel.app/r/logo.json",
-        "https://registry-starter.vercel.app/r/hero.json",
-        "https://registry-starter.vercel.app/r/promo.json",
-        "https://registry-starter.vercel.app/r/product-grid.json",
-        "https://registry-starter.vercel.app/r/accordion.json",
-        "https://registry-starter.vercel.app/r/alert.json",
-        "https://registry-starter.vercel.app/r/alert-dialog.json",
-        "https://registry-starter.vercel.app/r/aspect-ratio.json",
-        "https://registry-starter.vercel.app/r/avatar.json",
-        "https://registry-starter.vercel.app/r/badge.json",
-        "https://registry-starter.vercel.app/r/breadcrumb.json",
-        "https://registry-starter.vercel.app/r/button.json",
-        "https://registry-starter.vercel.app/r/calendar.json",
-        "https://registry-starter.vercel.app/r/card.json",
-        "https://registry-starter.vercel.app/r/carousel.json",
-        "https://registry-starter.vercel.app/r/chart.json",
-        "https://registry-starter.vercel.app/r/checkbox.json",
-        "https://registry-starter.vercel.app/r/collapsible.json",
-        "https://registry-starter.vercel.app/r/command.json",
-        "https://registry-starter.vercel.app/r/context-menu.json",
-        "https://registry-starter.vercel.app/r/dialog.json",
-        "https://registry-starter.vercel.app/r/drawer.json",
-        "https://registry-starter.vercel.app/r/dropdown-menu.json",
-        "https://registry-starter.vercel.app/r/form.json",
-        "https://registry-starter.vercel.app/r/hover-card.json",
-        "https://registry-starter.vercel.app/r/input.json",
-        "https://registry-starter.vercel.app/r/input-otp.json",
-        "https://registry-starter.vercel.app/r/label.json",
-        "https://registry-starter.vercel.app/r/menubar.json",
-        "https://registry-starter.vercel.app/r/navigation-menu.json",
-        "https://registry-starter.vercel.app/r/pagination.json",
-        "https://registry-starter.vercel.app/r/popover.json",
-        "https://registry-starter.vercel.app/r/progress.json",
-        "https://registry-starter.vercel.app/r/radio-group.json",
-        "https://registry-starter.vercel.app/r/resizable.json",
-        "https://registry-starter.vercel.app/r/scroll-area.json",
-        "https://registry-starter.vercel.app/r/select.json",
-        "https://registry-starter.vercel.app/r/separator.json",
-        "https://registry-starter.vercel.app/r/sheet.json",
-        "https://registry-starter.vercel.app/r/sidebar.json",
-        "https://registry-starter.vercel.app/r/skeleton.json",
-        "https://registry-starter.vercel.app/r/slider.json",
-        "https://registry-starter.vercel.app/r/sonner.json",
-        "https://registry-starter.vercel.app/r/switch.json",
-        "https://registry-starter.vercel.app/r/table.json",
-        "https://registry-starter.vercel.app/r/tabs.json",
-        "https://registry-starter.vercel.app/r/textarea.json",
-        "https://registry-starter.vercel.app/r/toggle.json",
-        "https://registry-starter.vercel.app/r/toggle-group.json",
-        "https://registry-starter.vercel.app/r/tooltip.json",
-        "https://registry-starter.vercel.app/r/data-table.json",
-        "https://registry-starter.vercel.app/r/date-picker.json"
-      ],
-      "files": [
-        {
-          "path": "registry/layouts/minimal-layout.tsx",
-          "type": "registry:file",
-          "target": "src/app/layout.tsx"
-        },
-        {
-          "path": "src/app/demo/[name]/blocks/store-page.tsx",
-          "type": "registry:page",
-          "target": "src/app/page.tsx"
-        }
-      ]
-    },
-    {
-      "name": "brand-header",
-      "type": "registry:component",
-      "title": "Brand Header",
-      "description": "A styled, simple, reusable header",
-      "registryDependencies": [
-        "https://registry-starter.vercel.app/r/theme.json",
-        "https://registry-starter.vercel.app/r/button.json",
-        "https://registry-starter.vercel.app/r/input.json",
-        "https://registry-starter.vercel.app/r/avatar.json",
-        "https://registry-starter.vercel.app/r/sidebar.json",
-        "https://registry-starter.vercel.app/r/sonner.json",
-        "https://registry-starter.vercel.app/r/logo.json"
-      ],
-      "files": [
-        {
-          "path": "src/components/brand-header.tsx",
-          "type": "registry:component",
-          "target": "src/components/brand-header.tsx"
-        },
-        {
-          "path": "registry/layouts/shell-layout.tsx",
-          "type": "registry:file",
-          "target": "src/app/layout.tsx"
-        },
-        {
-          "path": "src/app/demo/[name]/blocks/blank-page.tsx",
-          "type": "registry:page",
-          "target": "src/app/page.tsx"
-        }
-      ]
-    },
-    {
-      "name": "brand-sidebar",
-      "type": "registry:component",
-      "title": "Brand Sidebar",
-      "description": "A styled, simple, reusable sidebar",
-      "registryDependencies": [
-        "https://registry-starter.vercel.app/r/theme.json",
-        "https://registry-starter.vercel.app/r/badge.json",
-        "https://registry-starter.vercel.app/r/button.json",
-        "https://registry-starter.vercel.app/r/sidebar.json",
-        "https://registry-starter.vercel.app/r/sonner.json"
-      ],
-      "files": [
-        {
-          "path": "src/components/brand-sidebar.tsx",
-          "type": "registry:component",
-          "target": "src/components/brand-sidebar.tsx"
-        },
-        {
-          "path": "registry/layouts/shell-layout.tsx",
-          "type": "registry:file",
-          "target": "src/app/layout.tsx"
-        },
-        {
-          "path": "src/app/demo/[name]/blocks/blank-page.tsx",
-          "type": "registry:page",
-          "target": "src/app/page.tsx"
-        }
-      ]
-    },
-    {
-      "name": "login",
-      "type": "registry:component",
-      "title": "Login",
-      "description": "Username & password login section with customer quote.",
-      "registryDependencies": [
-        "https://registry-starter.vercel.app/r/theme.json",
-        "https://registry-starter.vercel.app/r/badge.json",
-        "https://registry-starter.vercel.app/r/button.json",
-        "https://registry-starter.vercel.app/r/logo.json"
-      ],
-      "files": [
-        {
-          "path": "src/components/login.tsx",
-          "type": "registry:component",
-          "target": "src/components/login.tsx"
-        },
-        {
-          "path": "registry/layouts/minimal-layout.tsx",
-          "type": "registry:file",
-          "target": "src/app/layout.tsx"
-        },
-        {
-          "path": "src/app/demo/[name]/blocks/blank-page.tsx",
-          "type": "registry:page",
-          "target": "src/app/page.tsx"
-        }
-      ]
-    },
-    {
-      "name": "logo",
-      "type": "registry:component",
-      "title": "Brand Logo",
-      "description": "A styled, simple, reusable logo",
-      "registryDependencies": [
-        "https://registry-starter.vercel.app/r/theme.json"
-      ],
-      "files": [
-        {
-          "path": "src/components/logo.tsx",
-          "type": "registry:component",
-          "target": "src/components/logo.tsx"
-        },
-        {
-          "path": "registry/layouts/minimal-layout.tsx",
-          "type": "registry:file",
-          "target": "src/app/layout.tsx"
-        },
-        {
-          "path": "src/app/demo/[name]/blocks/blank-page.tsx",
-          "type": "registry:page",
-          "target": "src/app/page.tsx"
-        }
-      ]
-    },
-    {
-      "name": "hero",
-      "type": "registry:component",
-      "title": "Hero",
-      "description": "Attention-grabbing section for the top of your landing pages.",
-      "registryDependencies": [
-        "https://registry-starter.vercel.app/r/theme.json",
-        "https://registry-starter.vercel.app/r/badge.json",
-        "https://registry-starter.vercel.app/r/button.json"
-      ],
-      "files": [
-        {
-          "path": "src/components/hero.tsx",
-          "type": "registry:component",
-          "target": "src/components/hero.tsx"
-        },
-        {
-          "path": "registry/layouts/minimal-layout.tsx",
-          "type": "registry:file",
-          "target": "src/app/layout.tsx"
-        },
-        {
-          "path": "src/app/demo/[name]/blocks/blank-page.tsx",
-          "type": "registry:page",
-          "target": "src/app/page.tsx"
-        }
-      ]
-    },
-    {
-      "name": "promo",
-      "type": "registry:component",
-      "title": "Promo",
-      "description": "Attention-grabbing section to display the current promotional deal.",
-      "registryDependencies": [
-        "https://registry-starter.vercel.app/r/theme.json",
-        "https://registry-starter.vercel.app/r/button.json"
-      ],
-      "files": [
-        {
-          "path": "src/components/promo.tsx",
-          "type": "registry:component",
-          "target": "src/components/promo.tsx"
-        },
-        {
-          "path": "registry/layouts/minimal-layout.tsx",
-          "type": "registry:file",
-          "target": "src/app/layout.tsx"
-        },
-        {
-          "path": "src/app/demo/[name]/blocks/blank-page.tsx",
-          "type": "registry:page",
-          "target": "src/app/page.tsx"
-        }
-      ]
-    },
-    {
-      "name": "product-grid",
-      "type": "registry:component",
-      "title": "Product Grid",
-      "description": "Product grid displaying all products with API to fetch data",
-      "registryDependencies": [
-        "https://registry-starter.vercel.app/r/theme.json"
-      ],
-      "files": [
-        {
-          "path": "src/components/product-grid.tsx",
-          "type": "registry:component",
-          "target": "src/components/product-grid.tsx"
-        },
-        {
-          "path": "src/lib/products.ts",
-          "type": "registry:lib",
-          "target": "src/lib/products.ts"
-        },
-        {
-          "path": "registry/layouts/minimal-layout.tsx",
-          "type": "registry:file",
-          "target": "src/app/layout.tsx"
         }
       ]
     },
@@ -1175,7 +751,9 @@
       "type": "registry:component",
       "title": "EIRA Icons",
       "description": "EIRA monoline icon set with sparkle glyph — 1.5px stroke, rounded caps.",
-      "registryDependencies": ["theme"],
+      "registryDependencies": [
+        "theme"
+      ],
       "files": [
         {
           "path": "src/components/eira/icons.tsx",
@@ -1189,7 +767,9 @@
       "type": "registry:component",
       "title": "EIRA Button",
       "description": "EIRA branded button with primary, lime, ghost, text and onDark variants.",
-      "registryDependencies": ["theme"],
+      "registryDependencies": [
+        "theme"
+      ],
       "files": [
         {
           "path": "src/components/eira/button.tsx",
@@ -1203,7 +783,9 @@
       "type": "registry:component",
       "title": "EIRA Pill",
       "description": "EIRA branded pill/badge for status and category tags.",
-      "registryDependencies": ["theme"],
+      "registryDependencies": [
+        "theme"
+      ],
       "files": [
         {
           "path": "src/components/eira/pill.tsx",
@@ -1217,7 +799,9 @@
       "type": "registry:component",
       "title": "EIRA Card",
       "description": "EIRA card surface — cream by default, forest when dark.",
-      "registryDependencies": ["theme"],
+      "registryDependencies": [
+        "theme"
+      ],
       "files": [
         {
           "path": "src/components/eira/card.tsx",
@@ -1231,7 +815,9 @@
       "type": "registry:component",
       "title": "EIRA Field",
       "description": "EIRA form field wrapper with label, hint, and error states.",
-      "registryDependencies": ["theme"],
+      "registryDependencies": [
+        "theme"
+      ],
       "files": [
         {
           "path": "src/components/eira/field.tsx",
@@ -1245,7 +831,9 @@
       "type": "registry:component",
       "title": "EIRA Input",
       "description": "EIRA text input — cream-on-forest accent borders.",
-      "registryDependencies": ["theme"],
+      "registryDependencies": [
+        "theme"
+      ],
       "files": [
         {
           "path": "src/components/eira/input.tsx",
@@ -1259,7 +847,9 @@
       "type": "registry:component",
       "title": "EIRA Avatar",
       "description": "Circular avatar — photo crop or forest initials fallback.",
-      "registryDependencies": ["theme"],
+      "registryDependencies": [
+        "theme"
+      ],
       "files": [
         {
           "path": "src/components/eira/avatar.tsx",
@@ -1273,7 +863,10 @@
       "type": "registry:component",
       "title": "EIRA Bottom Tabs",
       "description": "Mobile in-app bottom tab bar with EIRA tab destinations.",
-      "registryDependencies": ["theme", "eira-icons"],
+      "registryDependencies": [
+        "theme",
+        "eira-icons"
+      ],
       "files": [
         {
           "path": "src/components/eira/bottom-tabs.tsx",
@@ -1287,7 +880,9 @@
       "type": "registry:component",
       "title": "EIRA Phone Frame",
       "description": "iPhone-shaped artboard for previewing EIRA mobile screens.",
-      "registryDependencies": ["theme"],
+      "registryDependencies": [
+        "theme"
+      ],
       "files": [
         {
           "path": "src/components/eira/phone.tsx",
@@ -1301,7 +896,10 @@
       "type": "registry:component",
       "title": "EIRA Screen Topbar",
       "description": "Mobile screen topbar with back, title, and action slot.",
-      "registryDependencies": ["theme", "eira-icons"],
+      "registryDependencies": [
+        "theme",
+        "eira-icons"
+      ],
       "files": [
         {
           "path": "src/components/eira/screen-topbar.tsx",
@@ -1420,7 +1018,10 @@
       "type": "registry:component",
       "title": "EIRA Marketing Nav",
       "description": "Top marketing nav — logo, links, and lime apply CTA. Tones for cream-on-forest or forest-on-cream backgrounds.",
-      "registryDependencies": ["theme", "eira-brand-assets"],
+      "registryDependencies": [
+        "theme",
+        "eira-brand-assets"
+      ],
       "files": [
         {
           "path": "src/components/eira/marketing-nav.tsx",
@@ -1434,7 +1035,9 @@
       "type": "registry:component",
       "title": "EIRA Overlay Card",
       "description": "Backdrop-blurred glass card (forest or cream tint) plus a 3-column benefits row variant — designed to sit on hero photography.",
-      "registryDependencies": ["theme"],
+      "registryDependencies": [
+        "theme"
+      ],
       "files": [
         {
           "path": "src/components/eira/overlay-card.tsx",
@@ -1468,7 +1071,10 @@
       "type": "registry:component",
       "title": "EIRA Marketing Hero — Abstract",
       "description": "Forest-flat hero with no photography — text left, animated SVG sage/lime sparkle burst right. Use when imagery isn't available.",
-      "registryDependencies": ["theme", "eira-marketing-nav"],
+      "registryDependencies": [
+        "theme",
+        "eira-marketing-nav"
+      ],
       "files": [
         {
           "path": "src/components/eira/marketing-hero-abstract.tsx",
@@ -1482,7 +1088,12 @@
       "type": "registry:component",
       "title": "EIRA Marketing Hero — Centered + Video",
       "description": "Centered hero on forest with eyebrow, accented headline, two CTAs and a poster-image video block with lime play button.",
-      "registryDependencies": ["theme", "eira-brand-assets", "eira-button", "eira-marketing-nav"],
+      "registryDependencies": [
+        "theme",
+        "eira-brand-assets",
+        "eira-button",
+        "eira-marketing-nav"
+      ],
       "files": [
         {
           "path": "src/components/eira/marketing-hero-centered.tsx",
@@ -1496,7 +1107,11 @@
       "type": "registry:component",
       "title": "EIRA Marketing Hero — Promo Banner",
       "description": "Lime promo strip + forest backdrop hero with a glass copy container on the left, hairline-divided benefits on the bottom right, and a floating chat affordance.",
-      "registryDependencies": ["theme", "eira-marketing-nav", "eira-overlay-card"],
+      "registryDependencies": [
+        "theme",
+        "eira-marketing-nav",
+        "eira-overlay-card"
+      ],
       "files": [
         {
           "path": "src/components/eira/marketing-hero-banner.tsx",
@@ -1510,7 +1125,12 @@
       "type": "registry:component",
       "title": "EIRA Derma Chat Screen",
       "description": "Patient-to-dermatologist chat thread with composer and photo attach.",
-      "registryDependencies": ["theme", "eira-avatar", "eira-brand-assets", "eira-icons"],
+      "registryDependencies": [
+        "theme",
+        "eira-avatar",
+        "eira-brand-assets",
+        "eira-icons"
+      ],
       "files": [
         {
           "path": "src/components/eira/derma-screen.tsx",

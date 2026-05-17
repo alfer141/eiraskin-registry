@@ -1,19 +1,5 @@
 import type { ReactElement, ReactNode } from "react";
 
-// blocks
-import { blank } from "@/app/demo/[name]/blocks/blank";
-import { dashboard } from "@/app/demo/[name]/blocks/dashboard";
-import { store } from "@/app/demo/[name]/blocks/store";
-
-// components
-import { brandHeader } from "@/app/demo/[name]/components/brand-header";
-import { brandSidebar } from "@/app/demo/[name]/components/brand-sidebar";
-import { hero } from "@/app/demo/[name]/components/hero";
-import { login } from "@/app/demo/[name]/components/login";
-import { logo } from "@/app/demo/[name]/components/logo";
-import { productGrid } from "@/app/demo/[name]/components/product-grid";
-import { promo } from "@/app/demo/[name]/components/promo";
-
 // ui
 import { accordion } from "@/app/demo/[name]/ui/accordion";
 import { alert } from "@/app/demo/[name]/ui/alert";
@@ -72,20 +58,6 @@ interface Demo {
 }
 
 export const demos: { [name: string]: Demo } = {
-  // blocks
-  blank,
-  store,
-  dashboard,
-
-  // components
-  hero,
-  login,
-  promo,
-  logo,
-  "brand-header": brandHeader,
-  "brand-sidebar": brandSidebar,
-  "product-grid": productGrid,
-
   // ui
   accordion,
   alert,
